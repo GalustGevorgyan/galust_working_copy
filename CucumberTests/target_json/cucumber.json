@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open home page in Fb",
+        "description": "",
+        "id": "open-home-page-in-fb;open-home-page-in-fb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13799651140,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \"https://www.facebook.com/\" page",
+            "match": {
+              "location": "Tester.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16928650846,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login into the account",
+            "match": {
+              "location": "Tester.loginTheAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280018762,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click find freands button",
+            "match": {
+              "location": "Tester.clickFindFreandButon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5395104249,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Logut from the account",
+            "match": {
+              "location": "Tester.logutAcaunt()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open home page in Fb",
+    "description": "",
+    "id": "open-home-page-in-fb",
+    "keyword": "Feature",
+    "uri": "Cucumber.feature"
+  }
+]
