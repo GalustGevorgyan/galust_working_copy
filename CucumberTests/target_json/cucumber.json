@@ -3,68 +3,252 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "Open home page in Fb",
+        "line": 10,
+        "name": "search name",
         "description": "",
-        "id": "open-home-page-in-fb;open-home-page-in-fb",
+        "id": "search-name;search-name;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 13799651140,
+              "duration": 18832979350,
               "status": "passed"
             },
             "line": 5,
-            "name": "Open \"https://www.facebook.com/\" page",
+            "name": "Open \"http://www.starwars.com/\" web page",
             "match": {
-              "location": "Tester.openPage()"
+              "arguments": [
+                {
+                  "val": "http://www.starwars.com/",
+                  "offset": 6
+                }
+              ],
+              "location": "searchName.openMyPage(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 16928650846,
+              "duration": 42927135616,
               "status": "passed"
             },
             "line": 6,
-            "name": "Login into the account",
+            "name": "Search \"Star wars heroes\" from a web page with \"nav-search-input\" id name",
             "match": {
-              "location": "Tester.loginTheAccount()"
+              "arguments": [
+                {
+                  "val": "Star wars heroes",
+                  "offset": 8
+                },
+                {
+                  "val": "nav-search-input",
+                  "offset": 48
+                }
+              ],
+              "location": "searchName.searchNameWebPAge(String,String)"
             },
-            "keyword": "When "
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "search name",
+        "description": "",
+        "id": "search-name;search-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17622465331,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \"http://www.starwars.com/\" web page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.starwars.com/",
+                  "offset": 6
+                }
+              ],
+              "location": "searchName.openMyPage(String)"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 280018762,
+              "duration": 45141686285,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Click find freands button",
+            "line": 6,
+            "name": "Search \"movie\" from a web page with \"nav-search-input\" id name",
             "match": {
-              "location": "Tester.clickFindFreandButon()"
+              "arguments": [
+                {
+                  "val": "movie",
+                  "offset": 8
+                },
+                {
+                  "val": "nav-search-input",
+                  "offset": 37
+                }
+              ],
+              "location": "searchName.searchNameWebPAge(String,String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "search name",
+        "description": "",
+        "id": "search-name;search-name;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22339907012,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \"http://www.starwars.com/\" web page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.starwars.com/",
+                  "offset": 6
+                }
+              ],
+              "location": "searchName.openMyPage(String)"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5395104249,
+              "duration": 49259670795,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Logut from the account",
+            "line": 6,
+            "name": "Search \"gvidon\" from a web page with \"nav-search-input\" id name",
             "match": {
-              "location": "Tester.logutAcaunt()"
+              "arguments": [
+                {
+                  "val": "gvidon",
+                  "offset": 8
+                },
+                {
+                  "val": "nav-search-input",
+                  "offset": 38
+                }
+              ],
+              "location": "searchName.searchNameWebPAge(String,String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "search name",
+        "description": "",
+        "id": "search-name;search-name;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19782773949,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \"http://www.starwars.com/\" web page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.starwars.com/",
+                  "offset": 6
+                }
+              ],
+              "location": "searchName.openMyPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46335325525,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search \"gurgen\" from a web page with \"nav-search-input\" id name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gurgen",
+                  "offset": 8
+                },
+                {
+                  "val": "nav-search-input",
+                  "offset": 38
+                }
+              ],
+              "location": "searchName.searchNameWebPAge(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@search"
           }
         ]
       }
     ],
-    "name": "Open home page in Fb",
+    "name": "search name",
     "description": "",
-    "id": "open-home-page-in-fb",
+    "id": "search-name",
     "keyword": "Feature",
-    "uri": "Cucumber.feature"
+    "uri": "search/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
   }
 ]

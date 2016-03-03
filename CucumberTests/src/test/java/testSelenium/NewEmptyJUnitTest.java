@@ -5,12 +5,15 @@
  */
 package testSelenium;
 
+import cucumber.api.java.en.Given;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  *
@@ -29,13 +32,14 @@ public class NewEmptyJUnitTest {
     public static void tearDownClass() {
     }
     
-    @Before
+    @Before()
     public void setUp() {
     }
     
     @After
     public void tearDown() {
     }
+    
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
