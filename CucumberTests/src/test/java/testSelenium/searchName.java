@@ -28,10 +28,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class searchName {
 
     WebDriver firefoxDriver = new FirefoxDriver();
-    //WebDriver chromeDriver = new ChromeDriver();
     WebDriverWait wait = new WebDriverWait(firefoxDriver, 60);
-    //private Object logger;
 
+    
+    
     @Given("^Open \"(.*?)\" web page$")
     public void openMyPage(String url) {
         firefoxDriver.get(url);
@@ -42,7 +42,7 @@ public class searchName {
     public void searchNameWebPAge(String names, String id) throws InterruptedException {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id(id)));
         WebElement searchBox = firefoxDriver.findElement(By.id(id));
-        //WebElement inputElement = firefoxDriver.findElement(By.id("nav-search-input"));
+       
         Thread.sleep(20000);
         searchBox.sendKeys(names);
         searchBox.submit();
